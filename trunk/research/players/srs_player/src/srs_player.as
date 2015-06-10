@@ -147,7 +147,7 @@ package
             var obj:Object = __get_video_size_object();
             
             obj.server = 'srs';
-            obj.contributor = 'winlin';
+            obj.contributor = 'LinuxBot';
             
             if (srs_server != null) {
                 obj.server = srs_server;

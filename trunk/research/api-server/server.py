@@ -1082,13 +1082,13 @@ if __name__ != "__main__":
 
 # check the user options
 if len(sys.argv) <= 1:
-    print "SRS api callback server, Copyright (c) 2013-2014 winlin"
+    print "CRS api callback server, Copyright (c) 2015 Cittu"
     print "Usage: python %s <port>"%(sys.argv[0])
     print "    port: the port to listen at."
     print "For example:"
     print "    python %s 8085"%(sys.argv[0])
     print ""
-    print "See also: https://github.com/simple-rtmp-server/srs"
+    print "See also: https://github.com/cittu/srs"
     sys.exit(1)
 
 # parse port from user options.
