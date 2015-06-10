@@ -37,7 +37,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #define RTMP_SIG_SRS_KEY "CRS"
 #define RTMP_SIG_SRS_CODE "Cittu"
 #define RTMP_SIG_SRS_ROLE "origin/edge server"
-#define RTMP_SIG_SRS_NAME RTMP_SIG_SRS_KEY"(Simple RTMP Server)"
+#define RTMP_SIG_SRS_NAME RTMP_SIG_SRS_KEY"(Cittu RTMP Server)"
 #define RTMP_SIG_SRS_URL_SHORT "github.com/cittu/srs"
 #define RTMP_SIG_SRS_URL "https://"RTMP_SIG_SRS_URL_SHORT
 #define RTMP_SIG_SRS_WEB "http://www.cittu.com"

@@ -140,9 +140,9 @@ int SrsApiV1::do_process_request(SrsStSocket* skt, SrsHttpMessage* req)
     ss << __SRS_JOBJECT_START
         << __SRS_JFIELD_ERROR(ERROR_SUCCESS) << __SRS_JFIELD_CONT
         << __SRS_JFIELD_ORG("urls", __SRS_JOBJECT_START)
-            << __SRS_JFIELD_STR("versions", "the version of SRS") << __SRS_JFIELD_CONT
-            << __SRS_JFIELD_STR("summaries", "the summary(pid, argv, pwd, cpu, mem) of SRS") << __SRS_JFIELD_CONT
-            << __SRS_JFIELD_STR("rusages", "the rusage of SRS") << __SRS_JFIELD_CONT
+            << __SRS_JFIELD_STR("versions", "the version of CRS") << __SRS_JFIELD_CONT
+            << __SRS_JFIELD_STR("summaries", "the summary(pid, argv, pwd, cpu, mem) of CRS") << __SRS_JFIELD_CONT
+            << __SRS_JFIELD_STR("rusages", "the rusage of CRS") << __SRS_JFIELD_CONT
             << __SRS_JFIELD_STR("self_proc_stats", "the self process stats") << __SRS_JFIELD_CONT
             << __SRS_JFIELD_STR("system_proc_stats", "the system process stats") << __SRS_JFIELD_CONT
             << __SRS_JFIELD_STR("meminfos", "the meminfo of system") << __SRS_JFIELD_CONT
